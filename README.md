@@ -1,8 +1,9 @@
+# start project
 $ mkdir -p $HOME/projects/example-inc/
 # Create a new app-operator project
-$ cd $HOME/projects/example-inc/
-$ operator-sdk new app-operator --repo github.com/example-inc/app-operator
-$ cd app-operator
+$ cd $HOME/projects/example-inc/  
+$ operator-sdk new app-operator --repo github.com/example-inc/app-operator  
+$ cd app-operator  
 
 # Add a new API for the custom resource AppService
 $ operator-sdk add api --api-version=app.example.com/v1alpha1 --kind=AppService
